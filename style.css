@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    height: 300vh;
+}
+
+.main-container {
+    background-image: url("jugger.jpg");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    background-color: rgba(33, 37, 41, 0.0);
+    color: white;
+    font-family: sans-serif;
+    width: 100vw;
+}
+
+.nav-bar {
+    position: sticky;
+    top: 0;
+    margin-right: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* max-width: 1200px; */
+    margin: 0;
+    padding-right: 50px;
+}
+
+.center-text {
+    margin-top: 10rem;
+    margin-right: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.service-box {
+    margin: 50px;
+}
+
+.service-box h2 {
+    color: black;
+    margin: 0;
+}
+
+.service-box h4 {
+    color: rgb(104, 104, 104);
+    margin: 20px;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.second-window {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.third-window {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(234,234,234);
+    height: 120vh;
+}
+
+.three-boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    width: 95vw;
+    margin: 30px;
+}
+
+.portfolio-boxes {
+    background-color: white;
+    width: 400px;
+    height: 250px;
+    margin: 0 20px;
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+}
+
+.img2 {
+    background-image: url("2.jpg");
+}
+
+.img3 {
+    background-image: url("3.jpg");
+}
+
+.img4 {
+    background-image: url("4.jpg");
+}
+
+.img5 {
+    background-image: url("5.jpg");
+}
+
+.img6 {
+    background-image: url("6.jpg");
+}
+
+.small-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 340px;
+    margin: 0 1rem;
+}
+
+.three-icons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 80vw;
+    align-items: center;
+}
+
+button {
+    background-color: gold;
+    width: 200px;
+    height: 70px;
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+.logo {
+    margin: 0 1rem;
+    color: gold;
+    font-family: 'Kaushan Script', cursive;
+}
+
+h1 {
+    font-size: 1.4rem;
+}
+
+h2 {
+    font-size: 54px;
+    -webkit-text-stroke: .3px black;
+
+}
+
+h3 {
+    margin: 0;
+    font-size: 40px;
+    -webkit-text-stroke: .3px black;
+}
+
+h4 {
+    font-size: 26px;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.small-container p {
+    color: gray;
+    text-align: center;
+    line-height: 150%;
+    font-size: 120%;
+    font-family: roboto;
+}
+
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+li:hover {
+    opacity: .8;
+}
+
+.port-text {
+    margin: 0;
+}
+
+.yellow-circle {
+    background-color: gold;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.hamburger {
+    display: none !important;
+    margin: 0 .3 rem;
+    font-size: 2rem;
+    background-color: gold;
+    border: 1px solid gold;
+    padding: .3rem 1rem;
+    border-radius: 6px;
+}
+
+.top-image {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 1000px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        max-width: 800px;
+    }
+
+    header {
+        background-color: rgba(33, 37, 41, 1);
+    }
+
+    .hamburger {
+        display: inline-block !important;
+    }
+
+    ul {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 600px;
+    }
+}
+
